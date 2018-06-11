@@ -21,9 +21,10 @@ function whileLoop(number){
 }
 
 function doWhileLoop(array){
-  array.shift()
-  return Math.random() >= 0.5
+ 
   do {
+     array.shift()
+  return Math.random() >= 0.5
  
   } while (array.length > 0 && maybeTrue());
   
